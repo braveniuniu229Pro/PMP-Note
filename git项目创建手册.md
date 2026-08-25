@@ -22,3 +22,4 @@
    4. 直接使用刚才说的push -u origin main去建立追踪关系
 3. git branch --set-upstream-to=这个命令可以用于远程已经建立了一个新的分支如dev，然后可以在本地使用
 git switch -c dev（创建并切换到这个分支），然后和远程建立追踪关系，进行拉取或是上传的操作等。
+或是更简单的：git switch -c dev --track origin/dev 直接在本地创建并建立这个追踪。
